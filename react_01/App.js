@@ -20,7 +20,6 @@ class App extends Component {
 
   inputText = () => {
     return (
-
       this.state.sampleBoolean ?
       <Text> sampleBoolean is true</Text>
       :
@@ -53,6 +52,10 @@ class App extends Component {
   render() {
     return (
       <View style={styles.background}>
+        <Text>Hellow World (1)</Text>
+        <Text>{this.state.sampleText} (2)</Text>
+        <Text onPress={this.changeState}>{this.inputText()} (3) </Text> 
+        <Text onPress={this.onAdd}>{this.state.sampleNum} (4) </Text> 
         <PropsChild sampleText={this.state.sampleText} changeState={this.changeState}></PropsChild>
       </View>
     )
