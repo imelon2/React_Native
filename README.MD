@@ -22,7 +22,7 @@ npx pod-install
 3.1.x	>=0.60
 2.x.x	>= 0.60
 1.x.x	<= 0.59
-
+ 
 
 @https://picsum.photos/id/237/200/300 // picsum photos 
 
