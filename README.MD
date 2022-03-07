@@ -37,7 +37,7 @@ import android.os.Bundle;
 protected void onCreate(Bundle savedInstanceState) {
   super.onCreate(null);
 }
-
+ 
 ss
 @ ios폴더에서
 npx pod-install ios
